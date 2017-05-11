@@ -1,0 +1,323 @@
+
+@font-face {
+  font-family: 'ubuntu-light';
+  src: url("fonts/ubuntu-light-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.banner-ln *{
+   font-family: 'ubuntu-light'
+}
+
+hr{
+   margin-top: 5px;
+}
+.welcome-login{
+   padding-top: 30px;
+
+}
+
+.banner-ln{
+   background-image: url(../img/login-bg.jpg);
+   width: 100%;
+   height: 700px;
+   padding-top: 50px;
+}
+
+
+.login-whole{
+   width: 400px;
+   height: 475px;
+   /*margin-top: 100px;*/
+   margin-right: auto;
+   margin-left: auto;
+   background-color: #fff;
+}
+
+.signIn{
+   width: 400px;
+   height: 375px;
+}
+
+.login-info{
+   margin-bottom: 35px;
+}
+
+.form-control{
+   height: 40px;
+   /*border-left:0;*/
+}
+
+.input-group{
+   width: 300px;
+   margin: 15px 50px;
+
+}
+
+
+
+.input-group-addon{
+   border-radius: 0;
+   border-right: 0;
+   background-color: transparent;
+   width: 40px;
+}
+
+.width-ln{
+   width: 400px;
+}
+
+
+.centered{
+   text-align: center;
+}
+.right{
+   text-align: center;
+}
+
+.forgetPsw{
+   margin-left: 50px;
+   width: 150px;
+   height: 40px;
+}
+
+.forgetPsw a{
+   color: black;
+}
+.forgetPsw hr{
+   width: 120px;
+   margin-top: 5px;
+   border-color: black;
+   visibility: hidden;
+   margin-bottom: 5  px;
+}
+
+.signIn hr{
+   margin-top: 20px;
+}
+
+
+.rememberMe{
+   margin-left: 15px;
+   
+}
+.rememberMe input{
+   border-radius: 50%;
+   color: black;
+}
+
+.btn{
+   display: block;
+}
+
+.signInBtn{
+   display: block;
+   color: white;
+   height: 45px;
+   width: 100px;
+   background-color: #3DCE71;
+   text-align: center;
+   margin-left: 150px; 
+}
+
+.signInBtn .default{
+   height: 45px;
+   border-radius: 0;
+   background-color: #3DCE71;
+   color: white;
+   font-size: 16px;
+   text-transform: uppercase;
+   width: 100px;
+}
+
+.signIn .signUpBtn{
+   display: block;
+   height: 45px;
+   width: 300px;
+   background-color: white;
+   text-align: center;
+   border: 1px solid grey;
+   margin-left: 50px;
+
+}
+
+.signIn .signUpBtn .default{
+   height: 45px;
+   border-radius: 0;
+   background-color: transparent;
+   color: black;
+   font-size: 16px;
+   text-transform: uppercase;
+   width: 300px;
+}
+.btnPart .signInBtn, .btnPart p, .btnPart .signUpBtn{
+   /*margin-top: 20px;*/
+   text-transform: uppercase;
+}
+
+.back-home{
+   margin-left: 5px;
+   margin-top:50px;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+.back-home a{
+   color: black;
+}
+.back-home hr{
+   border-color: black;
+   width: 100px;
+}
+
+a:hover{
+   text-decoration: none;
+}
+
+/*Register Page*/
+.register-whole{
+   width: 550px;
+   height: 600px;
+   /*margin-top: 100px;*/
+   margin-right: auto;
+   margin-left: auto;
+   background-color: #fff;
+}
+
+.register-welcome{
+   width: 550px;
+   text-align: center;
+   padding-top: 30px;
+   margin-bottom: 30px;
+}
+
+.register{
+   width: 500px;
+   padding: 0 25px;
+   margin-left: 25px;
+   height: 500px;
+}
+
+.register p{
+   color: black;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.form-control{
+   border-radius: 0;
+}
+
+.form-group label{
+   text-transform: uppercase;
+   color: #333;
+}
+
+.register .signUpBtn{
+   display: block;
+   height: 45px;
+   width: 450px;
+   background-color: white;
+   text-align: center;
+   border: 1px solid grey;
+   /*margin-left: 45px;*/
+   background-color: #3DCE71;
+   border: none;
+   margin-top: 20px;
+}
+
+.register .signUpBtn a{
+   color: white; 
+   line-height: 45px;
+   text-transform: uppercase;
+}
+
+.register .back-home{
+   margin-top: 25px;
+}
+
+.register .default{
+   height: 45px;
+   border-radius: 0;
+   background-color: #3DCE71;
+   color: white;
+   font-size: 16px;
+   text-transform: uppercase;
+   width: 450px;
+   margin-left: 0;
+}
+/*Change password*/
+.change-whole{
+   width: 400px;
+   height: 500px;
+   /*margin-top: 100px;*/
+   margin-right: auto;
+   margin-left: auto;
+   background-color: #fff;
+}
+
+.change-welcome{
+   width: 400px;
+   text-align: center;
+   padding-top: 30px;
+   margin-bottom: 30px;
+}
+
+.changePass .signUpBtn{
+   display: block;
+   height: 45px;
+   width: 300px;
+   margin-left: 35px;
+   background-color: white;
+   text-align: center;
+   border: 1px solid grey;
+   /*margin-left: 45px;*/
+   background-color: #3DCE71;
+   border: none;
+   margin-top: 20px;
+}
+
+.changePass .signUpBtn a{
+   color: white; 
+   line-height: 45px;
+   text-transform: uppercase;
+}
+
+.changePass .back-home{
+   margin-top: 25px;
+}
+
+.changePass input{
+   width: 300px;
+   margin-left: 35px;
+}
+
+.changePass label{
+   margin-left: 35px;
+}
+.changePass .default{
+   height: 45px;
+   border-radius: 0;
+   background-color: #3DCE71;
+   color: white;
+   font-size: 16px;
+   text-transform: uppercase;
+   width: 300px;
+   margin-left: 0;
+}
+
+/*forget password*/
+.forgetPass{
+   height: 325px;
+}
+.forgetPass .default{
+   height: 45px;
+   border-radius: 0;
+   background-color: #3DCE71;
+   color: white;
+   font-size: 16px;
+   text-transform: uppercase;
+   width: 300px;
+   margin-left: 35px;
+}
